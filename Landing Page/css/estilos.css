@@ -107,6 +107,7 @@ a:hover{
 
 .header_contenido a:hover{
     transform: translateY(5px);
+    border-bottom: 12px solid  #ddd;
 }
 
 .footer{
