@@ -28,6 +28,17 @@ nav{
     font-weight: 1000;
     font-size: 25px;
     font-family: 'Libre Baskerville', serif;
+    animation: texto 3s linear infinite;
+    text-decoration: underline;
+}
+
+@keyframes texto {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 .nav ul{
     display: flex ;
