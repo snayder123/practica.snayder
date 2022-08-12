@@ -68,6 +68,16 @@ a:hover{
     color: #eed;
     font-family: 'Rubik Distressed', cursive;
     text-decoration-line: underline;
+    animation: jump 1s infinite;
+    animation-direction: alternate;
+}
+@keyframes jump{
+    from{
+        transform: translatey(0);
+    }
+    to{
+        transform: translatey(30px);
+    }
 }
 
 .header_contenido p{
